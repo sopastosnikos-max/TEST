@@ -156,18 +156,18 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "AstroPoint",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "AstroPoints",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "🪙",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 100000000,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 100000000,
 
     // Daily reward amount.
     dailyAmount: 100,
