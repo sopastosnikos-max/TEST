@@ -6,9 +6,9 @@ import { MessageTemplates } from '../../utils/messageTemplates.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
 const ROB_COOLDOWN = 0 * 60 * 60 * 1000;
-const BASE_ROB_SUCCESS_CHANCE = 0.100;
-const ROB_PERCENTAGE = 0.150;
-const FINE_PERCENTAGE = 0.10;
+const BASE_ROB_SUCCESS_CHANCE = 0.15;
+const ROB_PERCENTAGE = 0.15;
+const FINE_PERCENTAGE = 0.1;
 
 export default {
     data: new SlashCommandBuilder()
