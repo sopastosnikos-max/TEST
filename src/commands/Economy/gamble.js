@@ -5,9 +5,9 @@ import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHan
 import { MessageTemplates } from '../../utils/messageTemplates.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
-const BASE_WIN_CHANCE = 0.5;
-const CLOVER_WIN_BONUS = 0.5;
-const CHARM_WIN_BONUS = 0.08;
+const BASE_WIN_CHANCE = 0.10;
+const CLOVER_WIN_BONUS = 0.10;
+const CHARM_WIN_BONUS = 0.10;
 const PAYOUT_MULTIPLIER = 2.0;
 const GAMBLE_COOLDOWN = 0*60*1000;
 
