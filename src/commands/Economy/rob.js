@@ -5,10 +5,10 @@ import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHan
 import { MessageTemplates } from '../../utils/messageTemplates.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
-const ROB_COOLDOWN = 1 * 60 * 60 * 1000;
-const BASE_ROB_SUCCESS_CHANCE = 0.5;
-const ROB_PERCENTAGE = 0.15;
-const FINE_PERCENTAGE = 0.1;
+const ROB_COOLDOWN = 0 * 60 * 60 * 1000;
+const BASE_ROB_SUCCESS_CHANCE = 1.0;
+const ROB_PERCENTAGE = 1.0;
+const FINE_PERCENTAGE = 1.0;
 
 export default {
     data: new SlashCommandBuilder()
